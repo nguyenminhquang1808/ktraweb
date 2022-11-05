@@ -1,0 +1,131 @@
+/* Mobile and Tablet */
+@media screen and (max-width: 1024px){
+    .hide_on-m-t {
+        display: none;
+    }
+    .store_list {
+        padding: 0;
+    }
+    .wrap_list-responsive {
+        display: inline-block;
+    }
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hide_on-tablet {
+        display: none;
+    }
+    .navigation {
+        top: 0;
+        width: 100vw;
+    }
+    .nav_list-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrap-icon {
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+        position: relative;
+    }
+    .wrap_input-navbar {
+        display: block;
+        position: absolute;
+        border: 1px solid rgb(169, 166, 166);
+        top: 50%;
+        transform: translate(-50%,-50%);
+        right: 0px;
+        width: 350px;
+
+    }
+    #navbar-search {
+        width: 100%;
+        height: 100%;
+        padding: 3px 10px;
+    }
+    .add-producted {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .hide_on-mobile {
+        display: none;
+    }
+    .navigation {      
+        height: 60px;
+        top: 0;
+        width: 100vw;
+    }
+    .nav_list-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrap-icon {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .wrap_input-navbar {
+        width: 330px;
+        top: 68px;
+    }
+    .wrap_cart {
+        width: 350px;
+        top: 58px;
+        right: -126px;
+        height: 200px;
+    }
+    .store_list {
+        display: flex;
+        flex-direction: column;
+    }
+    .store_des {
+        padding: 20px 0;
+    }
+    .store_des h1 {
+        font-size: 2.6rem;
+    }
+    .store_des-paragraph {
+        font-size: 1.2rem;
+    }
+    .wrap_brand, .brand_link, .wrap_clothes {
+        width: 100vw;
+    }
+    .title_brand,.title_brand-sub {
+        font-size: 1.6rem;
+    }
+    .brand_link {
+        display: flex;
+        flex-direction: column;
+    }
+    .add-producted {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 500px;
+    }
+    .carousel_list-item-img {
+        height: 230px;
+        object-fit: cover;
+    }
+    .add_producted-text {
+        height: unset;
+        display: block;
+        overflow-y: scroll;
+    }
+    .add_size {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about_footer-title {
+        width: unset;
+    }
+    .model_brand {
+        background-size: cover;
+    }
+}
